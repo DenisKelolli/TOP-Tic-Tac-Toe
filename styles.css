@@ -1,14 +1,43 @@
 
+.container{
+ display: flex;
+ flex-direction: column;
+ justify-content: center; 
+ align-items: center; 
+ margin-top: 30px;
+}
 
 .grid-container {
-    display: grid;
-    grid-template-columns: repeat(3, 300px);
-    grid-template-rows: repeat(3, 300px);
-  }
-  
-  .grid-item {
-    border: 1px solid black;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
+  display: grid;
+  grid-template-columns: repeat(3, 300px);
+  grid-template-rows: repeat(3, 300px);
+}
+
+.grid-item {
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.play_again_button{
+  padding: 5px;
+  margin-top: 10px;
+}
+
+.winner{
+  padding: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 24px;
+  text-align: center;
+}
+
+.player_container{
+  padding: 10px;
+}
+
+#player1{
+  margin-right: 20px;
+}
+
